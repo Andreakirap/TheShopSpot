@@ -1,14 +1,14 @@
 # TheShopSpot
 
-TheShopSpot é 
+TheShopSpot é um site para facilitar a venda de pequenos e grandes varejistas, oferecendo um feedback direto com destaque em produtos através de uma parceria.
 
 # Protótipo de telas
 
-![](Web_1920_1)
-![](Web_1920_2)
-![](Web_1920_3)
-![](Web_1920_4)
-![](Web_1920_5)
+![](Prototipo_Telas/Web_1920_1.png)
+![](Prototipo_Telas/Web_1920_2.png)
+![](Prototipo_Telas/Web_1920_3.png)
+![](Prototipo_Telas/Web_1920_4.png)
+![](Prototipo_Telas/Web_1920_5.png)
 
 # Colaboradores
 
