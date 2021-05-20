@@ -1,30 +1,32 @@
-<div class="card">
-    <div class="card-header bg-primary text-light">
-        {{ title }}
+
+<div class="container-fluid">
+ <ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper d-block w-100">
+      <img [src]="images[0]" alt="Random first slide">
     </div>
-    <div class="card-body">
-        <form ngsubmit="ngSubmit()">
-
-            <div class="form-group">
-                <label>Nome</label>
-                <input type="text" class="form-control" [(ngModel)]="produto.nome" name="nome" #nome="ngModel"
-                required minlength="3"/>
-            </div>
-
-            <div class="form-group">
-                <label>Descrição</label>
-                <textarea class="form-control" [(ngModel)]="produto.descricao" name="descricao" #descricao="ngModel" rows="3"
-                required minlength="30"></textarea>
-            </div>
-
-            <div class="form-group">
-                <label>Preço</label>
-                <input type="number" class="form-control" [(ngModel)]="produto.preco" name="preco" #preco="ngModel"
-                required/>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Finalizar compra</button>
-            <a class="btn btn-secondary ml-2">Voltar para a tela principal</a>
-        </form>
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper d-block w-100">
+      <img [src]="images[1]" alt="Random second slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper d-block w-100">
+      <img [src]="images[2]" alt="Random third slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
 </div>
