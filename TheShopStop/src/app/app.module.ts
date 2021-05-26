@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { ProdutoFormComponent } from './produtos/produto-form/produto-form.component';
 import { ProdutoListComponent } from './produtos/produto-list/produto-list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RestComponent } from './rest/rest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProdutoFormComponent,
-    ProdutoListComponent
+    ProdutoListComponent,
+    RestComponent
   ],
   imports: [
     BrowserModule,

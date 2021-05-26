@@ -1,0 +1,76 @@
+{
+    "User":[
+        {
+            "id":1,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":2,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":3,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":4,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":5,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":6,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":7,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        },
+        {
+            "id":8,
+            "firstname":"John",
+            "lastname":"Test",
+            "email":"john@test.com",
+            "mobile":"91293915941",
+            "salary":"150000"
+            
+        }
+    ]
+}

@@ -75,3 +75,12 @@ body
   outline: none;
   font-size: 18px;
 }
+
+.user
+{
+  position: relative;
+  color: black;
+  cursor: pointer;
+}
+
+

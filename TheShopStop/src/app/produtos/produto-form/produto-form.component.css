@@ -1,0 +1,18 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container > div {
+  padding: 60px;
+}
+
+.button {
+  color :#1DC690 ;
+  cursor: pointer;
+}
